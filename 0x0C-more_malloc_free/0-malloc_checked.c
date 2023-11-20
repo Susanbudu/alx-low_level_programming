@@ -1,5 +1,10 @@
 #include "main.h"
-void *malloc_checked(unsigned int b);
+/**
+ * malloc_checked - pointer without data type
+ * @b: value
+ * Return:  pointer
+ **/
+void *malloc_checked(unsigned int b)
 {
 	void *pointer;
 
